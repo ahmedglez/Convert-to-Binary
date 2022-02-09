@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="./index.js"></script>
     <title>Convert to Binary</title>
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
 
+  <body>
+    <header>
+      <nav>
+        <img id="icon" src="icons8-data.png" alt="iconBin2Dec" width="25" height="25"/>
+        <h3 class="page-title">Bin2Dec</h3>
+      </nav>
 
+      <h2 class="info-text">
+        Lorem ipsum dolor sit amet <br />
+        consectetur adipisicing elit.
+      </h2>
+    </header>
+
+    <main>
+      <div class="number-container" >
+        <form class="bin-form" action="">
+          <label id="binNum" for="binaryNumber">Binary</label>
+          <input id="bin-input" name="binaryNumber" type="text" />
+          <button class="button-convert" type="button">Convert</button>
+        </form>
+      </div>
+
+      <div class="number-container">
+        <form class="dec-form" action="">
+          <label id="decNum" for="decimalNumber">Decimal</label>
+          <input id="decInput" name="decimalNumber" type="text" />
+          <button class="button-change" type="button">Change</button>
+        </form>
+      </div>
+    </main>
     
-</body>
+  </body>
 </html>

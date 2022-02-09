@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    align-items: baseline;
+    margin: 20px;
+}
+
+.page-title{
+    margin-left: 5px;
+}
+
+.info-text{
+    display: block;
+    margin: 20px;
+}
+main{
+    margin: 20px;
+}
+
+#bin-input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-color: black;
+    margin-bottom: 15px;
+}
+
+.button-convert{
+    margin-left: 15px;
+}
+
+.button-change{
+    margin-left: 15px;
+}
