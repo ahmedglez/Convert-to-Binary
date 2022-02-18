@@ -25,11 +25,15 @@ function change() {
 
   if (myState) {
     input.setAttribute("placeholder", "0101");
+    input.value = "";
+    inputShow.value = "";
     inputShow.setAttribute("placeholder", "5");
     label1.innerHTML = "BinNum";
     label2.innerHTML = "DecNum";
   } else {
     input.setAttribute("placeholder", "5");
+    input.value = "";
+    inputShow.value = "";
     inputShow.setAttribute("placeholder", "0101");
     label1.innerHTML = "DecNum";
     label2.innerHTML = "BinNum";
