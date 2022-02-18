@@ -224,7 +224,7 @@ main {
   transform: scale(1.1);
   transition: 1s;
   background-color: rgba(128, 103, 38, 0.317);
-  box-shadow: 1px 1.2px 1.5px 1.5px rgba(46, 45, 45, 0.527);
+  box-shadow: 1px 1.5px 1.5px 1.5px rgba(46, 45, 45, 0.527);
 }
 #help-section h3 {
   text-align: center;

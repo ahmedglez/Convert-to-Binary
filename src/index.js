@@ -6,6 +6,21 @@ const label1 = document.getElementById("binNum");
 const label2 = document.getElementById("decNum");
 var myState = true;
 
+const onChangeEvent = (event) => {
+  if (event.key == 0 || event.key == 1) {
+    if (input.value.length < 8) {
+      input.value = event.target.value;
+      console.log(input.value.length);
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
+};
+
+input.onkeydown = onChangeEvent;
+
 function ModifyPlaceHolderBinary(idElement) {
   let input = document.getElementById("bin-input")[0];
   input.placeholder = "Binary";
