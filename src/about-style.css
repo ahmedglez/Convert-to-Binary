@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: block;
+  justify-content: center;
+}
+
+body {
+  background-image: url(icons/pexels-cottonbro-5473311.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: baseline;
+  margin-left: 20px;
+}
+.nav-links {
+  flex: 1;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-style: bold;
+  color: rgba(255, 255, 255);
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  list-style: none;
+  background: rgb(255, 196, 94);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.page-title {
+  font-size: 25px;
+  margin: 5px;
+  color: white;
+}
+
+span {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-text {
+  display: block;
+  margin: 25px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(179, 145, 60, 0.317);
+}
+
+p {
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+#text-about {
+  color: whitesmoke;
+  font-size: 17px;
+}
+.about-section {
+  display: block;
+  margin: 25px;
+  text-align: center;
+}

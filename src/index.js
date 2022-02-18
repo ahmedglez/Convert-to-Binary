@@ -14,11 +14,11 @@ function change() {
   }
 
   if (myState) {
-    label1.innerHTML = "Binary";
-    label2.innerHTML = "Decimal";
+    label1.innerHTML = "BinNum";
+    label2.innerHTML = "DecNum";
   } else {
-    label1.innerHTML = "Decimal";
-    label2.innerHTML = "Binary";
+    label1.innerHTML = "DecNum";
+    label2.innerHTML = "BinNum";
   }
 }
 
