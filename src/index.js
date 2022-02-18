@@ -6,6 +6,16 @@ const label1 = document.getElementById("binNum");
 const label2 = document.getElementById("decNum");
 var myState = true;
 
+function ModifyPlaceHolderBinary(idElement) {
+  let input = document.getElementById("bin-input")[0];
+  input.placeholder = "Binary";
+}
+
+function ModifyPlaceHolderDecimal(idElement) {
+  let input = document.getElementById("bin-input")[0];
+  input.placeholder = "Decimal";
+}
+
 function change() {
   if (myState === true) {
     myState = false;
@@ -14,9 +24,13 @@ function change() {
   }
 
   if (myState) {
+    input.setAttribute("placeholder", "0101");
+    inputShow.setAttribute("placeholder", "5");
     label1.innerHTML = "BinNum";
     label2.innerHTML = "DecNum";
   } else {
+    input.setAttribute("placeholder", "5");
+    inputShow.setAttribute("placeholder", "0101");
     label1.innerHTML = "DecNum";
     label2.innerHTML = "BinNum";
   }
