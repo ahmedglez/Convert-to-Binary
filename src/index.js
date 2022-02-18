@@ -12,7 +12,7 @@ function change() {
   } else {
     myState = true;
   }
-  console.log(myState);
+
   if (myState) {
     label1.innerHTML = "Binary";
     label2.innerHTML = "Decimal";
