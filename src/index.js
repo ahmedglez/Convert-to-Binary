@@ -7,15 +7,16 @@ const label2 = document.getElementById("decNum");
 var myState = true;
 
 const onChangeEvent = (event) => {
-  if (event.key == 0 || event.key == 1) {
-    if (input.value.length < 8) {
-      input.value = event.target.value;
-      console.log(input.value.length);
+  if (myState) {
+    if (event.key == 0 || event.key == 1) {
+      if (input.value.length < 8) {
+        input.value = event.target.value;
+      } else {
+        return false;
+      }
     } else {
       return false;
     }
-  } else {
-    return false;
   }
 };
 
